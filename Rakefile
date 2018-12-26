@@ -50,12 +50,12 @@ end
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "pmacs-rails_sql_views"
+    s.name = "rails_sql_views"
     s.summary = "Library which adds SQL Views to ActiveRecord."
     s.email = ["barendt@mail.med.upenn.edu","rgi@mail.med.upenn.edu"]
-    s.homepage = "http://github.com/pmacs/rails_sql_views"
+    s.homepage = "http://github.com/aquistech/rails_sql_views"
     s.description = "Adds support for using SQL views within ActiveRecord"
-    s.authors = ["Charles Treatman", "Anthony Eden", "Greg Barendt", "Raj Iyengar"]
+    s.authors = ["Charles Treatman", "Anthony Eden", "Greg Barendt", "Raj Iyengar", "Anand Bait"]
     s.files =  FileList[
       "CHANGELOG", 
       "README",

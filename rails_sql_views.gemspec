@@ -4,11 +4,11 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "pmacs-rails_sql_views"
+  s.name = "rails_sql_views"
   s.version = "0.11.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Charles Treatman", "Anthony Eden", "Greg Barendt", "Raj Iyengar", "Elika Molayi"]
+  s.authors = ["Charles Treatman", "Anthony Eden", "Greg Barendt", "Raj Iyengar", "Elika Molayi", "Anand Bait"]
   s.date = "2013-09-20"
   s.description = "Adds support for using SQL views within ActiveRecord"
   s.email = ["barendt@mail.med.upenn.edu", "rgi@mail.med.upenn.edu", "emolayi@mail.med.upenn.edu"]
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     "README",
     "Rakefile",
     "lib/active_record/view.rb",
-    "lib/pmacs-rails_sql_views.rb",
+    "lib/rails_sql_views.rb",
     "lib/rails_sql_views/connection_adapters/abstract/schema_definitions.rb",
     "lib/rails_sql_views/connection_adapters/abstract/schema_statements.rb",
     "lib/rails_sql_views/connection_adapters/abstract_adapter.rb",
@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
     "lib/rails_sql_views/schema_dumper.rb",
     "lib/rails_sql_views/version.rb"
   ]
-  s.homepage = "http://github.com/pmacs/rails_sql_views"
+  s.homepage = "http://github.com/aquistech/rails_sql_views"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.24"
   s.summary = "Library which adds SQL Views to ActiveRecord."
